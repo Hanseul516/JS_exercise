@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.menu {
+  width: 250px;
+  height: 50px;
+  position: fixed;
+  left: 50px;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+.menu > span:hover {
+  border-bottom: 2px solid white;
+  cursor: pointer;
+}
+
+.content {
+  font-size: 50px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div:nth-child(2) {
+  background-color: pink;
+}
+div:nth-child(3) {
+  background-color: palegreen;
+}
+div:nth-child(4) {
+  background-color: paleturquoise;
+}
